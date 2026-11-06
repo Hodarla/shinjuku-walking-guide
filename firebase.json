@@ -5,6 +5,10 @@
       "firebase.json",
       "README.md",
       ".gitignore",
+      ".firebaserc",
+      ".git/**",
+      ".firebase/**",
+      "firebase-debug.log",
       "**/.*",
       "**/node_modules/**"
     ],
