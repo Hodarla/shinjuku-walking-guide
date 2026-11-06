@@ -12,10 +12,9 @@ python3 -m http.server 4173
 
 ## Firebase Hosting
 
-專案尚未寫死 Firebase project ID，避免部署到錯誤專案。確認目標專案後：
+此儲存庫已綁定已確認的 Firebase 專案 `hodarla`：
 
 ```bash
-npx firebase-tools use <project-id>
 npx firebase-tools deploy --only hosting
 ```
 
